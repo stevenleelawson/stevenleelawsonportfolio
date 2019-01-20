@@ -1813,19 +1813,25 @@ input, select, textarea {
 		justify-content: center;
 	}
 
-	.resumecontainer:before {
-		content: '';
-		display: block;
+	.down-arrow-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.resume-header {
+		color: #fff;
+		margin-top: 2em;
+	}
+
+	.down-arrow {
+		background: url("images/arrow.svg") no-repeat;
 		width: 90px;
 		height: 66px;
-		position: absolute;
-		left: 50%;
-		top: -4.5em;
-		margin-left: -45px;
-		margin-top: -33px;
-		background: url("images/arrow.svg") no-repeat;
+		margin-bottom: 2em;
 	}
-	
+
 	.box {
 		position: relative;
 		margin-top: 9em;
