@@ -1807,6 +1807,25 @@ input, select, textarea {
 
 /* Box */
 
+	.resumecontainer {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.resumecontainer:before {
+		content: '';
+		display: block;
+		width: 90px;
+		height: 66px;
+		position: absolute;
+		left: 50%;
+		top: -4.5em;
+		margin-left: -45px;
+		margin-top: -33px;
+		background: url("images/arrow.svg") no-repeat;
+	}
+	
 	.box {
 		position: relative;
 		margin-top: 9em;
